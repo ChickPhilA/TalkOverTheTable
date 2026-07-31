@@ -4,7 +4,6 @@ import './index.css'
 
 import App from './App.tsx'
 import Navbar from './components/Navbar.tsx'
-import Card from './components/Card.tsx'
 import SelectedTable from './pages/SelectedTable.tsx'
 
 
