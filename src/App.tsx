@@ -33,14 +33,15 @@ const App = () => {
     <>
       <div className="flex flex-row max-w-full">
         {/* The left item is the list of posts. But for now, we'll keep it full. */}
-        <div>
+        <div className="flex flex-col gap-8 flex-1 pt-8 mx-8">
+          <h2 className="text-mustard-deep text-center"> Check out what tables your communities are eating up below! </h2>
           {tables && tables.length > 0
             ?
-            tables.map(table => 
-              <Card key={table.id} post={table} />
-            ) 
+              tables.map(table =>
+                <Card key={table.id} post={table} />
+            )
             :
-            <h2 className="brown mx-auto">
+            <h2 className="text-brown mx-auto">
               There are no tables to discuss over! Would you like to start a new one?
             </h2>
           }
