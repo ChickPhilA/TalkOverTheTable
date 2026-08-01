@@ -4,7 +4,9 @@ import './index.css'
 
 import App from './App.tsx'
 import Navbar from './components/Navbar.tsx'
+import CreateTable from './pages/CreateTable.tsx'
 import SelectedTable from './pages/SelectedTable.tsx'
+import NotFound from './pages/NotFound.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -12,7 +14,9 @@ createRoot(document.getElementById('root')!).render(
     <Routes>
         <Route path ="/" element={<Navbar/>}>
           <Route index={true} element={<App/>} />
-           <Route path="/table/:id" element={<SelectedTable/>} /> 
+          <Route path="create" element={<CreateTable/>} />
+          <Route path="/table/:id" element={<SelectedTable/>} /> 
+          <Route path="*" element={<NotFound/>} />
         </Route>
     </Routes>
   </BrowserRouter>
