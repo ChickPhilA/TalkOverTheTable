@@ -12,6 +12,7 @@ const CreateTable = () => {
         category: ""
     })
 
+    // this redirects the page back to the Home page after the form is submitted
     const navigate = useNavigate()
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -22,7 +23,7 @@ const CreateTable = () => {
     const submitTable = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
 
-        // Sends our table inputs to our database!
+        // Sends our table inputs to our database! Also logs if an error occurs upon submit.
         const { error } = await supabase
         .from('tables')
         .insert(newTable)
