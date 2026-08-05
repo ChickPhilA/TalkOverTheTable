@@ -3,7 +3,7 @@ export interface Table {
     created_at: string
     title: string
     upvotes: number
-    content?: string
+    content: string
     image_url?: string
     comments: string[]
     category?: string
