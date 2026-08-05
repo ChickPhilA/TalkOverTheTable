@@ -151,7 +151,7 @@ const SelectedTable = () => {
                 <div className="flex items-center justify-between flex-wrap gap-2 bg-brown-light px-6 py-3">
                     <div className="flex items-center gap-4 text-sm">
                         <div> {"Posted on: " + formattedDate} </div>
-                        <div className="font-bold"> {upvotes + " upvotes 🔺"} </div>
+                        <div className="font-bold"> {upvotes + " Plates Up 🔺🍽️"} </div>
                     </div>
 
                     <div className="flex items-center gap-2">
@@ -175,9 +175,9 @@ const SelectedTable = () => {
                             <>
                                 <button
                                     onClick={handleUpvote}
-                                    className="bg-mustard hover:bg-mustard-deep transition-colors duration-300 text-ink font-bold px-4 py-2 rounded-lg"
+                                    className="bg-mustard hover:bg-mustard-deep transition-colors duration-300 text-ink font-bold px-4 py-2 rounded-lg cursor-pointer"
                                 >
-                                    Upvote
+                                    Up-Plate! ⬆️
                                 </button>
 
                                 <button
@@ -189,7 +189,7 @@ const SelectedTable = () => {
                                         })
                                         setIsEditing(true)
                                     }}
-                                    className="bg-mustard-deep hover:bg-[#6e4e10] transition-colors duration-300 text-card font-bold px-4 py-2 rounded-lg"
+                                    className="bg-mustard-deep hover:bg-[#6e4e10] transition-colors duration-300 text-card font-bold px-4 py-2 rounded-lg cursor-pointer"
                                 >
                                     Edit
                                 </button>
@@ -244,7 +244,7 @@ const SelectedTable = () => {
                             />
                             <button
                                 onClick={handleAddComment}
-                                className="self-start bg-mustard hover:bg-mustard-deep transition-colors duration-300 text-ink font-bold px-4 py-2 rounded-lg"
+                                className="self-start bg-mustard hover:bg-mustard-deep transition-colors duration-300 text-ink font-bold px-4 py-2 rounded-lg cursor-pointer"
                             >
                                 Post Comment
                             </button>
