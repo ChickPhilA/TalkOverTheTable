@@ -30,7 +30,7 @@ const Card = ({ post }: CardProps) => {
                             {"Posted on: " + formattedDate}
                         </div>
                         <div className="text-mustard">
-                            {post.upvotes + " upvotes 🔺"}
+                            {post.upvotes + " Plates Up 🔺🍽️"}
                         </div>
                 </div>
             </div>
