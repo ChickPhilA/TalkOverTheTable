@@ -68,7 +68,7 @@ const App = () => {
                 onClick={() => setSortBy("upvotes")}
                 className={`px-4 py-2 rounded-lg font-bold transition-colors duration-300 ${sortBy === "upvotes" ? "bg-mustard-deep text-card" : "bg-mustard text-ink hover:bg-mustard-deep hover:text-card"}`}
               >
-                Sort by Upvotes
+                Sort by Up-Plates
               </button>
             </div>
           </div>
