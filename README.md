@@ -63,7 +63,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [X] List anything else that you added to improve the site's functionality!
+  - To keep content on this web page related to the context of food, I created a context filter when a user creates a post, and checks to see if the title and the content contain at least one food keyword in it. I wanted to add an AI LLM checker to evaluate the context of the title and the content itself, but the work was too much for the time I had remaining.
 
 ## Video Walkthrough
 
