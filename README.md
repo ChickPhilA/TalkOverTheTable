@@ -2,9 +2,9 @@
 
 Submitted by: **Phillipe Manio**
 
-This web app: **insert description**
+This web app: **TalkOverTheTable is a full stack forum posting site where you can discuss about food, anything and everything food. The name has been inspired from the social habit of discussing over the lunch, dinner, or the dining table of chit-chatting over the table while eating a nice meal or snack. Want to find a food place near you? Looking for someone to go on a coffee date with? Need to find the next best recipe? Welcome to TalkOverTheTable!**
 
-Time spent: **X** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
@@ -23,12 +23,12 @@ The following **required** functionality is completed:
     - title 
     - upvotes count
   - Clicking on a post should direct the user to a new page for the selected post
-- [ ] **Users can view posts in different ways**
+- [X] **Users can view posts in different ways**
   - Users can sort posts by either:
     -  creation time
     -  upvotes count
   - Users can search for posts by title
-- [ ] **Users can interact with each post in different ways**
+- [X] **Users can interact with each post in different ways**
   - The app includes a separate post page for each created post when clicked, where any additional information is shown, including:
     - content
     - image
@@ -38,7 +38,7 @@ The following **required** functionality is completed:
     - Each click increases the post's upvotes count by one
     - Users can upvote any post any number of times
 
-- [ ] **A post that a user previously created can be edited or deleted from its post pages**
+- [X] **A post that a user previously created can be edited or deleted from its post pages**
   - After a user creates a new post, they can go back and edit the post
   - A previously created post can be deleted from its post page
 
@@ -69,22 +69,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+https://youtu.be/r7yO0477Kk4
 
 ## Notes
 
 Describe any challenges encountered while building the app.
 
+**Because of what I learned throughout the course with consistency from the previous projects, I didn't have much difficulty while building this application. The only challenge I had was figuring out filtering by time or title, but with references from past work and assistance from AI, I was able to overcome this block in my implementations. While not perfect, this is one of my favorite projects that I have worked on, and has helped me grow as a full stack developer.**
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [Phillipe Manio]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
