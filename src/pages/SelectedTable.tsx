@@ -111,7 +111,7 @@ const SelectedTable = () => {
 
                 {/* the optional background and title, OR the editable title/image_url fields when isEditing */}
                 {isEditing ? (
-                    <div className="flex flex-col gap-3 px-6 pt-6">
+                    <div className="flex flex-col gap-3 px-6 pt-6 pb-6">
                         <div className="flex flex-col gap-1">
                             <label htmlFor="title" className="block font-bold text-mustard-deep">Title:</label>
                             <input
